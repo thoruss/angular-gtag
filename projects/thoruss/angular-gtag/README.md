@@ -26,7 +26,7 @@ Add the the tracking code from GA admin dashboard to `index.html` and set *send_
 Add the package to to your `app.module.ts`.
 
 ```ts
-import { GtagModule } from 'angular-gtag';
+import { GtagModule } from '@thoruss/angular-gtag';
 
 @NgModule({
   imports: [
